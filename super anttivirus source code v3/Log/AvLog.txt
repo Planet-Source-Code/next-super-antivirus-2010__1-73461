@@ -1,0 +1,80 @@
+2010-09-02      2:10:22 MD      Scanning in     C:\WINDOWS\system32
+2010-09-13      12:35:51 MD      Scanning in     C:\Documents and Settings\Computer1\Start Menu\Programs\Startup
+2010-09-14      1:15:49 MD      Virus found  C:\Program Files\ESET\ESET NOD32 Antivirus\egui.exe     Detected As: TH.ESSET
+2010-09-14      1:20:53 MD      Virus found  C:\Program Files\ESET\ESET NOD32 Antivirus\egui.exe     Detected As: TH.ESSET
+2010-09-14      1:21:14 MD      Virus found  C:\Program Files\ESET\ESET NOD32 Antivirus\egui.exe     Detected As: TH.ESSET
+2010-09-14      1:25:00 MD      Virus found  C:\Program Files\ESET\ESET NOD32 Antivirus\egui.exe     Detected As: TH.ESSET
+2010-09-15      12:46:50 0      Scanning in     
+2010-09-15      12:46:59 0      Scanning in     
+2010-09-15      12:52:24 0      Scanning in     C:\Documents and Settings\Computer1\My Documents
+2010-09-15      12:52:48 0      Scanning in     C:\Documents and Settings\Computer1\My Documents
+2010-09-15      1:25:40 0      Scanning in     
+2010-09-15      2:21:14 0      Scanning in     C:\Documents and Settings\Computer1\Start Menu\Programs\Startup
+2010-09-15      3:03:20 0      Scanning in     C:\Documents and Settings\Computer1\Desktop
+2010-09-15      3:03:44 0      Scanning in     C:\Documents and Settings\Computer1\Desktop
+2010-09-15      3:07:57 0      Scanning in     C:\Documents and Settings\Computer1\My Documents
+2010-09-15      3:20:00 0      Scanning in     C:\Documents and Settings\Computer1\Desktop\My Web EGJ SOft
+2010-09-15      3:20:07 0      Scanning in     C:\WINDOWS\system32
+9/15/2010      11:03:05 PM      Scanning in     Browse Directory To Scan
+
+9/15/2010      11:04:02 PM      Scanning in     Browse Directory To Scan
+
+9/15/2010      11:14:29 PM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/15/2010      11:14:35 PM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/15/2010      11:18:35 PM      Scanning in     D:\My Documents
+9/15/2010      11:22:23 PM      Scanning in     C:\WINDOWS\system32
+9/15/2010      11:29:51 PM      Scanning in     F:\
+9/15/2010      11:30:36 PM      Scanning in     F:\
+9/15/2010      11:31:57 PM      Quarantine    F:\Desktop Locker.exe
+9/15/2010      11:36:08 PM      Restore from quarantine folder  Desktop Locker.exe.exe.vir
+9/15/2010      11:36:15 PM      Scanning in     F:\
+9/15/2010      11:37:40 PM      Scanning in     F:\
+9/15/2010      11:41:18 PM      Scanning in     F:\
+9/15/2010      11:45:29 PM      Scanning in     F:\
+9/15/2010      11:46:18 PM      Scanning in     F:\
+9/15/2010      11:50:10 PM      Scanning in     F:\
+9/15/2010      11:50:23 PM      Scanning in     F:\
+9/15/2010      11:59:43 PM      Scanning in     F:\
+9/16/2010      12:04:50 AM      Scanning in     F:\
+9/16/2010      12:10:34 AM      Scanning in     F:\
+9/16/2010      12:16:17 AM      Scanning in     F:\
+9/16/2010      12:17:16 AM      Scanning in     F:\
+9/16/2010      12:23:30 AM      Scanning in     F:\
+9/16/2010      12:27:27 AM      Scanning in     F:\
+9/16/2010      12:30:21 AM      Scanning in     F:\
+9/16/2010      12:31:56 AM      Scanning in     F:\
+9/16/2010      12:34:56 AM      Scanning in     F:\
+9/16/2010      12:36:27 AM      Scanning in     F:\
+9/16/2010      12:37:46 AM      Scanning in     F:\
+9/17/2010      11:26:55 PM      Scanning in     F:\
+9/19/2010      9:35:36 PM      Scanning in     C:\WINDOWS\system32
+9/19/2010      9:36:43 PM      Scanning in     F:\
+9/19/2010      10:21:54 PM      Scanning in     Browse Directory To Scan
+
+9/19/2010      10:23:24 PM      Scanning in     C:\
+9/19/2010      10:24:35 PM      Scanning in     C:\
+9/19/2010      11:51:27 PM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/19/2010      11:52:38 PM      Scanning in     Browse Directory To Scan
+
+9/20/2010      1:13:37 AM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/20/2010      1:15:54 AM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/20/2010      1:17:26 AM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/20/2010      1:20:24 AM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/20/2010      1:20:36 AM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/20/2010      1:23:42 AM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/20/2010      1:24:04 AM      Scanning in     C:\Documents and Settings\SERVIS\Start Menu\Programs\Startup
+9/20/2010      1:30:05 AM      Scanning in     
+9/20/2010      1:30:21 AM      Scanning in     
+9/20/2010      1:30:43 AM      Scanning in     
+9/20/2010      1:42:20 AM      Scanning in     C:\Documents and Settings\All Users\Favorites
+9/20/2010      1:42:27 AM      Scanning in     C:\Documents and Settings\All Users\Favorites
+9/20/2010      1:42:37 AM      Scanning in     
+9/20/2010      1:43:12 AM      Scanning in     C:\WINDOWS\system32
+9/20/2010      1:55:55 AM      Scanning in     
+9/20/2010      1:56:29 AM      Scanning in     D:\
+9/20/2010      1:57:34 AM      Scanning in     C:\
+9/20/2010      2:30:04 AM      Scanning in     C:\WINDOWS
+9/20/2010      2:33:52 AM      Scanning in     C:\WINDOWS
+2010-09-20      6:22:17 0      Scanning in     C:\Documents and Settings\Computer1\Start Menu\Programs\Startup
+2010-09-20      6:22:22 0      Scanning in     C:\WINDOWS
+2010-09-20      6:22:44 0      Scanning in     
