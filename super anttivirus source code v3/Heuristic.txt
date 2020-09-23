@@ -1,0 +1,159 @@
+Option Explicit
+'$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Engine Utama SmadAV $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+
+'Virus Database
+'==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Public Const IntViriName As String = "Aduhai|Aksika.A|Aksika.A.Source|Aksika.B|Aksika.C|Aksika.D|Aksika.E|Aksika.F|Aksika.V.Dodol|Aksika.V.Kere|Aksika.V.Kompti|Anf|Apel.A|Apel.B|April|Armora.A|Armora.B|Armora.C|Ascribes|Bharatayuda|BlackLove.A|BlackLove.B|BlackLove.Source|Blank|Bolos|Boozy|Borax|Born|Brontok.A|Brontok.B-1|Brontok.B-2|Brontok.B-3|Brontok.B-4|Brontok.C-1|Brontok.C-10|Brontok.C-2|Brontok.C-3|Brontok.C-4|Brontok.C-5|Brontok.C-6|Brontok.C-7|Brontok.C-8|Brontok.C-9|Brontok.D-1|Brontok.D-2|Brontok.Laknats|Brontok.MyBro.A|Brontok.MyBro.B|Brontok.Sensasi.A|Brontok.Sensasi.B|Buff|Burmecia|Cintaku.Source|Codex|CopyA|Cuex44|Cyrax.A|Cyrax.B|Cyrax.C|Cyrax.D|Cyrax.V.Tikoh|Datos|Decoil|Decoil.Resource|Delf|Ego|FluBurung.A|FluBurung.B|Gelas|Harpot|Hatipat|Heny|Imelda.A|Imelda.B|Iwing|Jablay|KamaSutra|Kangen.A|Kangen.B|Kangen.C|Kangen.D|Kangen.E|Latvir|Leena|Levona|Lovgate|Majnun|Malioboro|Manis|Mazda|Moonlight.A|Moonlight.B|Moonlight.C|MySong|Nahital|Naki|Netsky|NewRiyani|Nimda|Notbron|Nukedevil|" & _
+"Paper|Parayrontok|Pesin|Peta|Pluto.A|Pluto.B|Pluto.C|Pluto.D|Polyface|Provisioning|Renova|Riyani|Rolog|Romdil.A|Romdil.B|Rose.A|Rose.B|Rose.C|Rose.D|Sality|Shellin|Shuriken|Stration|Teroris|Tinutuan|Trojan.Equesto|Trojan.Jadi|Trojan.PassDump|Trojan.Plexus|Trojan.Winkiller.A|Trojan.Winkiller.B|Tsunami|V-Hack|Wukill.A|Wukill.B|Wukill.C|Xoralla|Yosa"
+'==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Public Const IntViriString1 As String = "|3C1B1F|256AA5|F6B9F|29BAE2|29FC48|279B1A|2CE7DD|27A7C0|15453E|1A29E4|18FDF7|2E9BFB|43289C|47A426|31D954|3DECCD|3B36E1|3BC0B8|2E5ADC|3F2188|12AA96|12AA96|196F3C|2D8022|217E07|173449|19F05D|32876C|1417ED|47CFD5|3BC908|3FB22C|3F2E65|3FB22C|3FB22C|473D81|467039|4541D3|42ECAB|3FB22C|3E1F2F|3E1F2F|372006|427C5E|4554CA|349DBB|420A32|34D8B6|3A872D|3F5DF8|46891A|24818C|184061|156E28|466228|2088DD|16AD83|178C9A|239C8C|38C57A|19BEF8|3530F8|2D7BAC|1181AB|3A4904|1C3601|1788AE|45A0EE|4069CB|3F92AC|14C3EF|30783D|3F681F|2799E5|11DC95|14B9C3|2E4C67|152517|15A5C1|14B5CA|46FF46|13C17B|16A3BA|16F2D1|42949E|3F02A6|3E17B6|126B4E|1DFBB7|14FA37|3BAD14|40A789|2CA95F|1392F4|34EA6E|3ACD12|43AEF5|2FD694|2734DB|36C33D|405252|2D8CBF|2DE228|439F10|2FCA9F|248A0D|265299|234A83|22496D|475256|406B1B|34722A|1E42EA|3C8B8C|2C0436|3FDA18|42D1CF|3D8E63|14E101|397AE2|2F4A50|204963|15C583|3353D5|30279F|182690|34B411|36FE68|20868D|3B8CE4|29C3B6|1F333C|1237AF|40A9E2|1729A9|16895A|16895A|3CB241|2ABF99|"
+'==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Public Const IntViriString2 As String = "|35512F|4D73A0|24D154|48A601|480492|2656A0|45D3AE|477EDA|2BE38E|27EF43|28B085|25BA76|46EBCA|4B936F|2CE7C6|4441E9|486A96|48E5D7|397474|3E2866|3858CD|3858CD|297E9C|2C52A6|382721|18EA3E|28FF8D|2DA2C4|26EB51|426874|40F2FF|3FB2B9|45C2FA|3FB2B9|3FB2B9|3EEF36|47C585|4463F1|385D32|3FB2B9|45E791|45E791|4253D3|491C33|44D7FB|38C8D5|3C0822|3014A2|3E266B|35F365|3F219A|3F0B8E|27AB22|2E496E|441503|44248C|2895D1|28CB16|3E4635|38EF17|296B1C|28F1D1|2AF4C0|1CA08F|388982|35AAF3|4F3A28|428535|4C1503|39B2E8|28138D|32A84E|402ABC|285B17|236789|2A1C7E|2C6480|2D196E|2C74E7|2C0DAA|3A7BA1|239305|29A2D7|2D009D|3F51A5|3F90DC|412176|254719|46C3D5|2AC113|4775DE|42F2F4|2BFC94|2F35BD|410962|2EDACB|408C94|3076C4|3A1BC7|3D89DE|34C54D|31319E|369ADC|409930|2D305E|42868D|3CF3A8|43884F|447D42|3D9BE7|42AB85|328228|3F0A8B|41D22F|34CBEF|3141F8|41D05F|3C3EF2|2DDF49|402A18|26BF89|445719|2B8835|2C543C|2F3C64|24291A|4D3481|34636D|2AD4F0|371A63|43DF07|41D0EA|2BDED1|4530FD|26015F|27E093|27E093|36DB92|35A421|"
+'==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Public Const IntViriString3 As String = "|3933DA|3EDCB3|8A10B|3E05E8|3E56D9|43AB37|3BA81F|401CB8|1F8317|17C508|3764C6|357558|3CEAA1|4CA9DF|2CF0A6|44FC69|4C0373|4A7F56|36462F|4EFEC3|3458AC|346757|228B92|328608|44352F|231EED|F2CA8|3F6274|18E7FF|43AD73|40A38A|42E2F0|3CEABF|44705D|455720|42072A|3D25DA|3F763A|3D11A2|43A8E5|42929C|432804|42DB3D|41854E|3FD733|39B235|3C3AA0|489C44|372025|386864|434E34|42650F|1AC3DD|14C4D1|4000FD|429900|D947C|ABD12|4873A6|3657E1|1D0529|30AA7B|32EE5B|D95A1|3D19AF|30160F|3B23DC|37E334|32BFE2|4669A6|182DA5|3B6DA5|3C0BE1|30642D|14F5BB|D023B|2D33FD|10381E|175147|198522|29CF91|12DFE3|19011B|257154|3F8FC5|38E763|4510F1|16CE81|4226B8|201C7B|46D682|42E872|2A259B|1636DB|47572D|351DEE|48AEF3|33D020|5288AB|31924C|42ACC8|338833|34BB77|477713|29BF1D|3EAF61|3CE979|463A2A|460793|49A64A|49A6DB|32ECAD|A8682|40F3F5|3E8DFA|30D93A|394E19|3CE447|2398E0|3BB4BA|2B4DA8|3E7CFD|2D02AC|35B4FD|2BA41C|14E4A8|39F6D9|3A7604|265E43|35E411|485DBF|40184E|16D3D4|415B68|98E7F|BC6FB|A43A6|416674|37BDC7|"
+'==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Public Const IntViriVariantName As String = "Aduhai|Aksika|Kangen|Apel|Apel|Brontok|Armora|Ascribes|Codex|Brontok|Cyrax|Cyrax|Decoil|Rolog|Ego|FluBurung|Gelas|Imelda|Imelda|Iwing|Jablay|KamaSutra|Leena|Mazda|MySong|Nahital|Netsky|Riyani|Nimda|Nukedevil|Parayrontok|Peta|Pluto|Pluto|Polyface|Provisioning|Renova|Stration|Tinutuan|Tsunami|Wukill"
+'==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+Public Const IntViriIconID As String = "1F1C9B9|20938B2|19F4ED6|133BE0B|18EDEAE|1EF89C2|1C915FF|24563C4|1B2DB74|208EA72|22A064D|19B64EE|1D4B7E1|2087762|29C7258|1B18705|1B5FCAB|126D4CF|1C58E5C|15D7730|1FB82B7|112763E|2165AF9|25F46BE|206556B|22A8D69|19237F8|15022B4|1D8B4EB|1DBC1EA|2333F5D|1F37C2F|1C9CCA4|1DFDFB4|1C1283E|1F6598C|27F4C1A|22F92E0|191DBDC|27BFE4A|20E0907"
+'==============================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================================
+
+Public ViriName() As String
+Public ViriString4() As String
+Public ViriVariantName() As String
+Public ViriIconID() As String
+
+Public Function AnalyzeFile(ByVal lpFileName As String) As String
+    Dim i As Long
+    Dim hSplit As Long
+    Dim SaveStringNow(1 To 4) As String
+    Dim IconIDNow As String
+    Dim IconCountNow As Long
+    Dim ExtNow As String
+    
+    If isExe(lpFileName) = 0 Then Exit Function
+        SaveStringNow(1) = CalcBinary(lpFileName, 199, 4000)
+    If InStrRev(IntViriString1, SaveStringNow(1)) = 0 Then GoTo VarianCheck
+        SaveStringNow(2) = CalcBinary(lpFileName, 199, 4250)
+    If InStrRev(IntViriString2, SaveStringNow(2)) = 0 Then GoTo VarianCheck
+        SaveStringNow(3) = CalcBinary(lpFileName, 199, 4500)
+    If InStrRev(IntViriString3, SaveStringNow(4)) = 0 Then GoTo VarianCheck
+        
+VarianCheck:
+    IconIDNow = CalcIcon(lpFileName)
+    If InStrRev(IntViriIconID, IconIDNow) <> 0 Then
+        For i = 0 To UBound(ViriIconID)
+            If ViriIconID(i) = IconIDNow Then
+                AnalyzeFile = ViriVariantName(i) & ".Varian"
+                IconCountNow = GetIconCount(lpFileName)
+                If IconCountNow > 1 Then
+                    If InStrRev(UCase$(AnalyzeFile), "APEL") = 0 And InStrRev(UCase$(AnalyzeFile), "CYRAX") = 0 Then
+                        AnalyzeFile = ""
+                    End If
+                End If
+                Exit Function
+            End If
+        Next i
+    End If
+End Function
+
+Public Function SetVariabel()
+    Dim i As Long
+    Dim ViriString1() As String
+    Dim ViriString2() As String
+    Dim ViriString3() As String
+    
+    ViriString1 = Split(IntViriString1, "|")
+    ViriString2 = Split(IntViriString2, "|")
+    ViriString3 = Split(IntViriString3, "|")
+    ViriVariantName = Split(IntViriVariantName, "|")
+    ViriIconID = Split(IntViriIconID, "|")
+    
+    ReDim ViriString4(UBound(ViriString1)) As String
+    
+    For i = 1 To UBound(ViriString1) - 1
+        ViriString4(i - 1) = ViriString1(i) & ViriString2(i) & ViriString3(i)
+    Next i
+    
+    ViriName = Split(intstrrev, "|")
+End Function
+
+Public Function CalcBinary(ByVal lpFileName As String, ByVal lpByteCount As Long, Optional StartByte As Long = 0) As String
+    Dim Bin() As Byte
+    Dim ByteSum As Long
+    Dim i As Long
+    
+    ReDim Bin(lpByteCount) As Byte
+    
+    Open lpFileName For Binary As #1
+        If StartByte = 0 Then
+            Get #1, , Bin
+        Else
+            Get #1, StartByte, Bin
+        End If
+    Close #1
+    
+    For i = 0 To lpByteCount
+        ByteSum = ByteSum + Bin(i) ^ 2
+    Next i
+    
+    CalcBinary = ByteSum
+End Function
+
+Public Function CalcIcon(ByVal lpFileName As String) As String
+    Dim PicPath As String
+    Dim ByteSum As String
+    Dim IconExist As Long
+    Dim hIcon As Long
+    
+    hIcon = ExtractIconEx(lpFileName, 0, ByVal 0&, hIcon, 1)
+    If IconExist <= 0 Then
+        IconExist = ExtractIconEx(lpFileName, 0, ByVal 0&, hIcon, 1)
+        If IconExist <= 0 Then Exit Function
+    End If
+    
+    frmScanVirus.sIcon.BackColor = vbWhite
+    DrawIconEx frmScanVirus.sIcon.hdc, 0, 0, hIcon, 0, 0, 0, 0, DI_NORMAL
+    DestroyIcon = hIcon
+    
+    PicPath = GetSpecPath(SmadTempDir) & "\" & GetFileName(lpFileName) & ".tmp"
+    SavePicture frmScanVirus.sIcon.Image, PicPath
+    
+    ByteSum = CalcBinary(PicPath, FileLen(PicPath))
+    DeleteIt (PicPath)
+    
+    CalcIcon = ByteSum
+End Function
+
+Public Function GetIconCount(ByVal lpFileName As String) As Long
+    Dim iCon As Long
+    Dim hIcon As Long
+    
+    hIcon = ExtractIcon(App.hInstance, lpFileName, iCon)
+    Do Until hIcon <= 1
+        iCon = iCon + 1
+        hIcon = ExtractIcon(App.hInstance, lpFileName, iCon)
+    Loop
+    
+    GetIconCount = iCon
+End Function
+
+Public Function isExe(ByVal lpFileName As String) As Long
+    On Error GoTo isNotExe
+    
+    Dim BufferBin As String
+    
+    Open lpFileName For Binary Access Read As #1
+        BufferBin = Space(2)
+        Get #1, , BufferBin
+    Close #1
+    
+    If BufferBin = "MZ" Then
+        isExe = 1
+    Else
+        isExe = 0
+    End If
+    
+    Exit Function
+isNotExe:
+    isExe = 0
+End Function

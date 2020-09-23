@@ -1,0 +1,4 @@
+2010/08/30      2:07:54 PM      Scanning in     C:\Documents and Settings\Ermal\Start Menu\Programs\Startup
+2010/08/30      2:08:19 PM      Scanning in     C:\WINDOWS\system32
+2010/08/30      2:21:35 PM      Scanning in     C:\Documents and Settings\Ermal\Desktop
+2010/08/30      2:21:36 PM      Virus found  C:\Documents and Settings\Ermal\Desktop\Desktop Locker.exe     Detected As: DESCTOPLOCKER

@@ -1,0 +1,53 @@
+Version 1.9
+* Added Heuristic Icon 
+* Improved Scan Engine 1.3
+* Added Hide to System Tray and Turn Off Computer
+* Updated About with Version History
+
+Version 1.8
+* Tidak ada fungsi heuristic
+* 
+*
+*
+*
+
+Version 1.7
+*
+*
+*
+*
+*
+*
+*
+
+Version 1.6
+*
+*
+*
+*
+
+Version 1.5
+*
+*
+*
+*
+
+Version 1.4
+*
+*
+*
+
+Version 1.3
+*
+*
+
+Version 1.2
+*
+*
+*
+
+Version 1.1
+* Proyek awal The crying Machine
+*
+*
+
